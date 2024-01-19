@@ -1,6 +1,6 @@
 import express from "express";
 import os from "os"
-import { getAppsListMacOS } from "../../OperationalSystem/mac/actions/getAppsList";
+import { getAppsListMacOS } from "../../operationalSystem/mac/actions/getAppsList";
 
 const router = express.Router()
 

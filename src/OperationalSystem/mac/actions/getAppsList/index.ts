@@ -1,9 +1,9 @@
 import { Response } from "express";
 import { ExecException, exec } from "child_process";
-import { getAppInfo } from "../../utils/getAppInfo";
 import { navigators } from "../../../../mock/navigators";
 import { orderAppsByName } from "../../../../resources/helpers/orderAppsByName";
 import { IGetAppIcon } from "../../../../@types";
+import { getAppInfo } from "../../utils/getAppInfo";
 
 export const getAppsListMacOS = (res: Response) => {
     exec('ls /Applications', async (err: ExecException | null, stdout: string) => {

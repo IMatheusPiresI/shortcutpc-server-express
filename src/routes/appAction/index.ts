@@ -3,7 +3,7 @@ import { IAppOpenned, IAppUnblockPC } from "../../@types";
 import { verifyOpenningOption } from "../../resources/helpers/verifyOpenningOption";
 import robot from "robotjs"
 import os from "os"
-import { openApplicationMacOS } from "../../OperationalSystem/mac/actions/openApplication";
+import { openApplicationMacOS } from "../../operationalSystem/mac/actions/openApplication";
 
 const router = express.Router()
 
