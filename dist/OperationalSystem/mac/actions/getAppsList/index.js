@@ -11,9 +11,9 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.getAppsListMacOS = void 0;
 const child_process_1 = require("child_process");
-const getAppInfo_1 = require("../../utils/getAppInfo");
 const navigators_1 = require("../../../../mock/navigators");
 const orderAppsByName_1 = require("../../../../resources/helpers/orderAppsByName");
+const getAppInfo_1 = require("../../utils/getAppInfo");
 const getAppsListMacOS = (res) => {
     (0, child_process_1.exec)('ls /Applications', (err, stdout) => __awaiter(void 0, void 0, void 0, function* () {
         if (err) {

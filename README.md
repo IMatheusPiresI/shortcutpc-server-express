@@ -20,3 +20,41 @@ In addition to creating shortcuts for local applications, ShortcutPC offers the 
 
 #### 4. Integration with Online Services
 Beyond local applications, the server also supports creating shortcuts for online services such as Netflix, Prime Video, and others. This expands user options, allowing them to access not only local applications but also internet content quickly and easily.
+
+## ShortcutPC Instalation
+
+This guide provides instructions on how to download and start the server for the ShortcutPC project.
+
+## Requirements
+
+- [NodeJS](https://nodejs.org/) version 16.x or higher
+
+## Step by Step
+
+#### 1. Install NodeJS
+Make sure to have NodeJS installed on your machine. You can download the latest version from [nodejs.org](https://nodejs.org/).
+
+#### 2. Download the Project
+[Download the ShortcutPC](https://drive.google.com/file/d/1yLyxe2FnIXEXRYCXvX-j_-9oIveXTb2Y/view?usp=sharing) project file provided.
+
+#### 3. Open the Project Folder
+Open the folder of the project you just downloaded.
+
+```bash
+cd your/project/path
+```
+#### 4. Install Dependencies
+Run the following command to install the project dependencies.
+
+```bash
+npm install
+```
+
+#### 5. Start the Server
+After the dependencies installation is complete, start the server with the following command:
+
+```bash
+npm start
+```
+
+That's it! The ShortcutPC server is now running and ready to be used. If you need more information about the project or its configuration, refer to the additional documentation provided.

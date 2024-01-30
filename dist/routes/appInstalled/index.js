@@ -14,7 +14,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = __importDefault(require("express"));
 const os_1 = __importDefault(require("os"));
-const getAppsList_1 = require("../../OperationalSystem/mac/actions/getAppsList");
+const getAppsList_1 = require("../../operationalSystem/mac/actions/getAppsList");
 const router = express_1.default.Router();
 router.get("/list-apps", (_, res) => __awaiter(void 0, void 0, void 0, function* () {
     const platform = os_1.default.platform();
